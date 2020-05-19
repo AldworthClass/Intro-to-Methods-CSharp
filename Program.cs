@@ -21,7 +21,7 @@ namespace Intro_to_Methods_CSharp
 
 
         //Joke() is an overloaded method.  This means that there are more than 1 method 
-        //with the same name.
+        //with the same name.  Joke() and Joke(int).
         //The version of Joke() that is invoked will be determined by what (if any) arguments
         //are passed to it.
         
@@ -37,7 +37,7 @@ namespace Intro_to_Methods_CSharp
             Console.WriteLine("100 little bugs in the code.");
         }
 
-        //The parameter numBugs will allow this method to behave slightly differently each time it is called
+        //The parameter numBugs will allow this method to behave slightly differently each time it is called.
         public static void Joke(int numBugs)
         {
             Console.WriteLine(numBugs + " little bugs in the code");
